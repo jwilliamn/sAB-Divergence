@@ -18,28 +18,24 @@ Alpha-Beta divergence is investigated and compared with respect to other wellkno
 
 ### Results:
 
-Table for results
+| $\alpha, \beta$   |      MAE      |  MSE |
+|----------|:-------------:|------:|
+| $(1,0, 0.0)$ (KL) |  $0.68 $ 	 | $0.60$  |
+| $(0.7, 0.3)$ (Renyi) |    $0.52 $   |   $0.50$  |
+| $\mathbf{(2.2,-0.3)}$ \textbf{(sAB)} | $\mathbf{0.30}$ |    $\mathbf{0.20}$ |
 
 
 ________________________________________________
 
 ## Reproducibility:
+To get the results showed above, run:
 
-**Preprocessing.ipynb**
+* `bayesian linear regression.ipynb`, for data wihtout modification
+* `bayesian linear regression_outlier.ipynb`, for data wiht outliers added
 
-In this notebook..
-
-- Feature Engineering:
-
-**Testing.ipynb**
-
-- Did
-
-
-
+`ABdivergence..*.ipynb` notebooks are work in progress
 _________________________________________________
+
 #### References:
 
-- Dhivya, S., & Nithya, A. (2018). A Review on Machine Learning Algorithm for EEG Signal Analysis. Proceedings of the 2nd International Conference on Electronics, Communication and Aerospace Technology, ICECA 2018. https://doi.org/10.1109/ICECA.2018.8474801
-- Gemein, L. A. W., Schirrmeister, R. T., Chrabąszcz, P., Wilson, D., Boedecker, J., Schulze-Bonhage, A., Hutter, F., & Ball, T. (2020). Machine-learning-based diagnostics of EEG pathology. NeuroImage. https://doi.org/10.1016/j.neuroimage.2020.117021
-- Hosseini, M. P., Hosseini, A., & Ahi, K. (2020). A Review on Machine Learning for EEG Signal Processing in Bioengineering. IEEE Reviews in Biomedical Engineering. https://doi.org/10.1109/RBME.2020.2969915
+- Regli, Jean-Baptiste, and Ricardo Silva. "Alpha-beta divergence for variational inference." arXiv preprint arXiv:1805.01045 (2018).
