@@ -20,11 +20,12 @@ Alpha-Beta divergence is investigated and compared with respect to other wellkno
 
 ![](result.png)
 
-| $\alpha, \beta$   |      MAE      |  MSE |
+
+| alpha, beta   |      MAE      |  MSE |
 |----------|:-------------:|------:|
-| $(1,0, 0.0)$ (KL) |  $0.68 $ 	 | $0.60$  |
-| $(0.7, 0.3)$ (Renyi) |    $0.52 $   |   $0.50$  |
-| $\mathbf{(2.2,-0.3)}$ \textbf{(sAB)} | $\mathbf{0.30}$ |    $\mathbf{0.20}$ |
+| (1,0, 0.0) (KL) |  0.68 	 | 0.60  |
+| (0.7, 0.3) (Renyi) |    0.52   |   0.50  |
+| **(2.2,-0.3) (sAB)** | **0.30** |    **0.20** |
 
 For details of the derivation see bml2020_report.pdf
 ________________________________________________
