@@ -41,3 +41,4 @@ def train(model, optimizer, criterion, Xtrain_loader, ytrain_loader, epochs=3000
         if epoch%500==0:
             #print('Epoch {:02d}/{} || Loss:  Train {:.4f} | Validation {:.4f}'.format(epoch, epochs, train_losses[-1], validation_losses[-1]))
             print(criterion.qm.data.numpy(), (criterion.softplus(criterion.qs).data**2).numpy())
+            
