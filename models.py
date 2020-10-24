@@ -68,3 +68,4 @@ class VI(nn.Module):
         mu = self.q_mu(x)
         log_var = self.q_log_var(x)
         return self.reparameterize(mu, log_var), mu, log_var
+    

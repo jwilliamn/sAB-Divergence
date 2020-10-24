@@ -183,3 +183,4 @@ class Renyi(torch.nn.Module):
 
         renyi_div = (torch.log(torch.mean(exp1))+c1)/(1-self.alpha)
         return renyi_div
+    
