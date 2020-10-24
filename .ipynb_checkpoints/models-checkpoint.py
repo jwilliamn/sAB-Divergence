@@ -47,11 +47,15 @@ class VI(nn.Module):
 
         self.q_mu = nn.Sequential(
             nn.Linear(n_input, n_hidden*2),
-            nn.Linear(n_hidden*2, n_output)
+            nn.ReLU(),
+            nn.Linear(n_hidden*2, n_output),
+            nn.ReLU()
         )
         self.q_log_var = nn.Sequential(
             nn.Linear(n_input, n_hidden*2),
-            nn.Linear(n_hidden*2, n_output)
+            nn.ReLU(),
+            nn.Linear(n_hidden*2, n_output),
+            nn.ReLU()
         )
 
     def reparameterize(self, mu, log_var):
