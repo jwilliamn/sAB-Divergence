@@ -36,7 +36,6 @@ To get the results showed above, run:
 * `bayesian linear regression.ipynb`, for data wihtout modification
 * `bayesian linear regression_outlier.ipynb`, for data wiht outliers added
 
-`ABdivergence..*.ipynb` notebooks are work in progress
 _________________________________________________
 
 #### References:
