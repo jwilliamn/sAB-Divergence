@@ -18,6 +18,8 @@ Alpha-Beta divergence is investigated and compared with respect to other wellkno
 
 ### Results:
 
+![](result.png)
+
 | $\alpha, \beta$   |      MAE      |  MSE |
 |----------|:-------------:|------:|
 | $(1,0, 0.0)$ (KL) |  $0.68 $ 	 | $0.60$  |
