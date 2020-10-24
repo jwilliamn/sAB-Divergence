@@ -24,7 +24,7 @@ Alpha-Beta divergence is investigated and compared with respect to other wellkno
 | $(0.7, 0.3)$ (Renyi) |    $0.52 $   |   $0.50$  |
 | $\mathbf{(2.2,-0.3)}$ \textbf{(sAB)} | $\mathbf{0.30}$ |    $\mathbf{0.20}$ |
 
-
+For details of the derivation see bml2020_report.pdf
 ________________________________________________
 
 ## Reproducibility:
